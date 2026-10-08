@@ -1,0 +1,32 @@
+{
+  "name": "wobcart",
+  "version": "0.1.0",
+  "description": "Wobcart Next.js Storefront",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@stripe/react-stripe-js": "^5.4.1",
+    "@stripe/stripe-js": "^8.5.3",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.2",
+    "drift-zoom": "^1.5.1",
+    "next": "^15.5.7",
+    "photoswipe": "^5.4.4",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-range-slider-input": "^3.0.7",
+    "sass": "^1.82.0",
+    "swiper": "^12.1.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.5.7"
+  }
+}
