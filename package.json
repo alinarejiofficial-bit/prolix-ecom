@@ -28,5 +28,11 @@
     "@eslint/eslintrc": "^3.3.1",
     "eslint": "^9.28.0",
     "eslint-config-next": "^15.5.7"
+  },
+  "allowScripts": {
+    "@parcel/watcher": true,
+    "sharp": true,
+    "unrs-resolver": true,
+    "core-js": false
   }
 }
